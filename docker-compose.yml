@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  pg:
+    build:
+      context: .docker
+      dockerfile: Dockerfile
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_DB: ${POSTGRES_DB}
+      PGDATA: /var/lib/postgresql/data/pgdata
