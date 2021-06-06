@@ -1,4 +1,4 @@
-## Listen to PostgreSQL eventes with pg_notify and Python
+## Listen to PostgreSQL events with pg_notify and Python
 
 With PostgreSQL we can easily publish and listen events from one connection to another. It's cool because those
 notifications belong on a transaction. In this example I'm going to create a wrapper to help me to listen the events

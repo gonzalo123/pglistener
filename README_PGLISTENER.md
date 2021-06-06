@@ -1,4 +1,4 @@
-## Listen to PostgreSQL eventes with pg_notify and Python
+## Listen to PostgreSQL events with pg_notify and Python
 
 [pglistener](https://github.com/gonzalo123/pglistener)
 
