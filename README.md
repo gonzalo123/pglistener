@@ -58,3 +58,9 @@ def conn_from_django(django_connection):
 
     return conn
 ```
+
+You can install the library using pip
+
+```commandline
+pip install pglistener-gonzalo123
+```
